@@ -1,4 +1,4 @@
-const apiKey = '9fe4014...';
+const apiKey = '9fe4014855734c44b4394202240407';
 const city = 'Sarapul';
 const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
 
