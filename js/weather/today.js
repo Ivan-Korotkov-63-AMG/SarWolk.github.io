@@ -1,4 +1,9 @@
-fetch('http://api.weatherapi.com/v1/current.json?key=9fe4014855734c44b4394202240407&q=Sarapul&aqi=no')
+const apiKey = '9fe4014...';
+const city = 'Sarapul';
+const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=no`;
+
+
+fetch(url)
     .then(function (resp) { return resp.json() }) // Convert data to json
     .then( function (data) { 
         console.log(data);
