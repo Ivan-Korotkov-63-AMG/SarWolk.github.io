@@ -1,0 +1,14 @@
+.city {
+    color: whitesmoke;
+    font-size: xx-large;
+    text-align: center;
+
+    background-image: url("./shapochka.png");
+    background-size: auto;
+    width: 1510px;
+    height: 240px;
+}
+
+.features {
+    width: 100px;
+}
