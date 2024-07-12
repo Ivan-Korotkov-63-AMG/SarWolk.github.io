@@ -2,7 +2,7 @@ const keyApi = '9fe4014855734c44b4394202240407';
 const town = 'Sarapul';
 const weatherUrl = `https://api.weatherapi.com/v1/forecast.json?key=${keyApi}&q=${town}&days=7&aqi=no&alerts=no`;
 
-fetch('weatherUrl')
+fetch(weatherUrl)
     .then(function (res) { return res.json() }) // Convert data to json
     .then( function (data) { 
         console.log(data); //
